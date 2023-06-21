@@ -7,11 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\Collections\" />
     <Folder Include="Interface\" />
     <Folder Include="Commons\" />
     <Folder Include="Mappers\" />
     <Folder Include="Service\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CollectX.Domain\CollectX.Domain.csproj" />
   </ItemGroup>
 
 </Project>
