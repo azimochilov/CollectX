@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectX.Domain", "CollectX
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectX.Data", "CollectX.Data\CollectX.Data.csproj", "{52A08D9B-0EC8-401C-9C3C-9A80C17D117D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectX.Service", "CollectX.Service\CollectX.Service.csproj", "{69F848C7-F28D-450C-B0A1-03DC1ECF51ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{52A08D9B-0EC8-401C-9C3C-9A80C17D117D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52A08D9B-0EC8-401C-9C3C-9A80C17D117D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52A08D9B-0EC8-401C-9C3C-9A80C17D117D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69F848C7-F28D-450C-B0A1-03DC1ECF51ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69F848C7-F28D-450C-B0A1-03DC1ECF51ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69F848C7-F28D-450C-B0A1-03DC1ECF51ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69F848C7-F28D-450C-B0A1-03DC1ECF51ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
