@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CollectX.Service.DTOs.User;
-public class UserUpdateDto
+namespace CollectX.Service.DTOs.Users;
+public class UserCreationDto
 {
     [Required(ErrorMessage = "FirstName is required")]
     public string FirstName { get; set; }
@@ -14,4 +14,7 @@ public class UserUpdateDto
     [Required(ErrorMessage = "Email is required")]
     [EmailAddress(ErrorMessage = "Please enter valid email")]
     public string Email { get; set; }
+
+    [Required(ErrorMessage = "Password is required")]
+    public string Password { get; set; }
 }

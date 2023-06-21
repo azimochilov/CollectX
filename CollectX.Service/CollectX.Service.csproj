@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\Collection\" />
+    <Folder Include="DTOs\Collections\" />
     <Folder Include="Interface\" />
     <Folder Include="Commons\" />
     <Folder Include="Mappers\" />

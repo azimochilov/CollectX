@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace CollectX.Service.DTOs.User;
+namespace CollectX.Service.DTOs.Users;
 public class UserResultDto
 {
     public long Id { get; set; }

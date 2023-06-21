@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CollectX.Service.DTOs.User;
+namespace CollectX.Service.DTOs.Users;
 public class UserChangePasswordDto
 {
     [Required(ErrorMessage = "Email is requaried!")]
