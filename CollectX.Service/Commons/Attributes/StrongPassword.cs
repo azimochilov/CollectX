@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using CollectX.Service.Commons.Validations;
+using System.ComponentModel.DataAnnotations;
 
 namespace CollectX.Service.Commons.Attributes;
 public class StrongPassword : ValidationAttribute
