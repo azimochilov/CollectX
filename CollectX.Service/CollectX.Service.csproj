@@ -7,9 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="DTOs\User\" />
     <Folder Include="Interface\" />
     <Folder Include="Commons\" />
-    <Folder Include="DTOs\" />
     <Folder Include="Mappers\" />
     <Folder Include="Service\" />
   </ItemGroup>
