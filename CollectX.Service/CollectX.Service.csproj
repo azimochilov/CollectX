@@ -9,6 +9,7 @@
   <ItemGroup>
     <Folder Include="Interface\" />
     <Folder Include="Commons\" />
+    <Folder Include="DTOs\" />
     <Folder Include="Service\" />
   </ItemGroup>
 
