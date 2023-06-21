@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Commons\Attributes\" />
     <Folder Include="Commons\Validations\" />
     <Folder Include="Interface\" />
     <Folder Include="Mappers\" />
