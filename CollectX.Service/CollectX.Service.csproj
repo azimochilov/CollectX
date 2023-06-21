@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DTOs\Likes\" />
     <Folder Include="Interface\" />
     <Folder Include="Commons\" />
     <Folder Include="Mappers\" />
