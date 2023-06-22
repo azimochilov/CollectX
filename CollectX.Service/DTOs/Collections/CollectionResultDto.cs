@@ -7,7 +7,6 @@ public class CollectionResultDto
 {    
     public string Name { get; set; }
     public string Description { get; set; }
-    public Topic Topic { get; set; }
-    public List<Item> Items { get; set; }
+    public Topic Topic { get; set; } 
     public long UserId { get; set; }
 }
