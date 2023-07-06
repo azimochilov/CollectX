@@ -16,6 +16,11 @@ public class AppDbContext : DbContext
     public DbSet<Collection> Collections { get; set; }
     public DbSet<CustomField> CustomFields { get; set; }
 
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<Item>()
+            .HasNoKey();
+    }
 
 
 }
